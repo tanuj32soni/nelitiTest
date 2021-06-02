@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+</head>
+<body>
+    <h2>Weather App</h2>
+    <div>
+        <form action="." method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+</body>
+</html>
